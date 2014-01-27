@@ -3267,7 +3267,7 @@ If one hasn't been set, or if it's stale, prompt for a new one."
 ;;; Main Function
 
 ;;;###autoload
-(define-derived-mode typescript-mode nil "typescript"
+(define-derived-mode typescript-mode prog-mode "typescript"
   "Major mode for editing typescript.
 
 Key bindings:
